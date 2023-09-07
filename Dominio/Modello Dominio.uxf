@@ -1,0 +1,868 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<diagram program="umlet" version="15.0.0">
+  <zoom_level>8</zoom_level>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>248</x>
+      <y>136</y>
+      <w>200</w>
+      <h>136</h>
+    </coordinates>
+    <panel_attributes>Menù
+--
+titolo: testo
+pubblicato: sì/no
+layer=-1
+fg=blue
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>608</x>
+      <y>24</y>
+      <w>112</w>
+      <h>72</h>
+    </coordinates>
+    <panel_attributes>Sezione
+--
+nome: testo
+fg=blue
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>608</x>
+      <y>176</y>
+      <w>112</w>
+      <h>88</h>
+    </coordinates>
+    <panel_attributes>Voce
+--
+descrizione: testo
+fg=blue</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>232</x>
+      <y>384</y>
+      <w>88</w>
+      <h>48</h>
+    </coordinates>
+    <panel_attributes>Evento
+--
+informazioni
+
+fg=blue</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>360</x>
+      <y>32</y>
+      <w>264</w>
+      <h>120</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;&lt;&lt;&lt;-
+contiene ^
+m2=0..n
+m1=1
+fg=blue
+</panel_attributes>
+    <additional_attributes>10.0;130.0;10.0;20.0;310.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>664</x>
+      <y>88</y>
+      <w>88</w>
+      <h>104</h>
+    </coordinates>
+    <panel_attributes>lt=-&gt;&gt;&gt;&gt;&gt;
+appartiene ^
+m2=0..1
+m1=0..n
+fg=blue
+
+</panel_attributes>
+    <additional_attributes>10.0;110.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>440</x>
+      <y>200</y>
+      <w>184</w>
+      <h>40</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;&lt;&lt;&lt;-
+appartiene &gt;
+m2=0..n
+m1=0..1
+fg=blue
+</panel_attributes>
+    <additional_attributes>10.0;20.0;210.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>256</x>
+      <y>264</y>
+      <w>80</w>
+      <h>136</h>
+    </coordinates>
+    <panel_attributes>lt=-
+in uso in v
+m2=0..n
+m1=0..n
+fg=blue</panel_attributes>
+    <additional_attributes>10.0;10.0;10.0;150.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>512</x>
+      <y>232</y>
+      <w>112</w>
+      <h>120</h>
+    </coordinates>
+    <panel_attributes>lt=-
+fa riferimento a v
+m2=0..n
+m1=1
+fg=blue
+</panel_attributes>
+    <additional_attributes>10.0;130.0;10.0;20.0;120.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>Text</id>
+    <coordinates>
+      <x>248</x>
+      <y>192</y>
+      <w>160</w>
+      <h>80</h>
+    </coordinates>
+    <panel_attributes>richiede cuoco: sì/no
+piatti caldi: sì/no
+richiede cucina: sì/no
+buffet: sì/no
+finger food: sì/no
+style=wordwrap
+layer=-1
+fg=blue</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>8</x>
+      <y>384</y>
+      <w>112</w>
+      <h>48</h>
+    </coordinates>
+    <panel_attributes>Chef
+--
+
+
+fg=blue</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>112</x>
+      <y>392</y>
+      <w>136</w>
+      <h>40</h>
+    </coordinates>
+    <panel_attributes>lt=-
+assegnato a &gt;
+m2=0..1
+m1=0..n
+fg=blue</panel_attributes>
+    <additional_attributes>150.0;20.0;10.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>256</x>
+      <y>552</y>
+      <w>96</w>
+      <h>72</h>
+    </coordinates>
+    <panel_attributes>Servizio
+--
+
+layer=-1
+fg=blue</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>264</x>
+      <y>424</y>
+      <w>80</w>
+      <h>144</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;&lt;&lt;&lt;-
+prevede v
+m2=1..n
+m1= 1
+fg=blue</panel_attributes>
+    <additional_attributes>10.0;10.0;10.0;160.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>472</x>
+      <y>336</y>
+      <w>104</w>
+      <h>56</h>
+    </coordinates>
+    <panel_attributes>Ricetta
+--
+porzioni: numero
+layer=-1
+fg=magenta</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>16</x>
+      <y>192</y>
+      <w>248</w>
+      <h>208</h>
+    </coordinates>
+    <panel_attributes>lt=-
+è proprietario di ^
+m2=0..n
+m1=1
+fg=blue
+</panel_attributes>
+    <additional_attributes>50.0;240.0;50.0;20.0;290.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>Text</id>
+    <coordinates>
+      <x>536</x>
+      <y>24</y>
+      <w>144</w>
+      <h>24</h>
+    </coordinates>
+    <panel_attributes>{ordered}
+style=wordwrap
+layer=-2
+fg=black</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Text</id>
+    <coordinates>
+      <x>616</x>
+      <y>152</y>
+      <w>144</w>
+      <h>24</h>
+    </coordinates>
+    <panel_attributes>{ordered}
+style=wordwrap
+layer=-2
+fg=black</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Text</id>
+    <coordinates>
+      <x>496</x>
+      <y>216</y>
+      <w>144</w>
+      <h>24</h>
+    </coordinates>
+    <panel_attributes>{ordered}
+style=wordwrap
+layer=-2
+fg=black</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>328</x>
+      <y>264</y>
+      <w>80</w>
+      <h>304</h>
+    </coordinates>
+    <panel_attributes>lt=-
+in uso in v
+m2=0..n
+m1=0..1
+fg=blue</panel_attributes>
+    <additional_attributes>10.0;10.0;10.0;360.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>672</x>
+      <y>336</y>
+      <w>104</w>
+      <h>56</h>
+    </coordinates>
+    <panel_attributes>Preparazione
+--
+quantità: numero
+layer=-1
+
+fg=magenta</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>512</x>
+      <y>384</y>
+      <w>120</w>
+      <h>48</h>
+    </coordinates>
+    <panel_attributes>lt=-
+fg=magenta</panel_attributes>
+    <additional_attributes>10.0;10.0;10.0;40.0;130.0;40.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>608</x>
+      <y>384</y>
+      <w>128</w>
+      <h>88</h>
+    </coordinates>
+    <panel_attributes>lt=-&gt;&gt;
+fg=magenta</panel_attributes>
+    <additional_attributes>140.0;10.0;140.0;40.0;10.0;40.0;10.0;90.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>520</x>
+      <y>456</y>
+      <w>200</w>
+      <h>216</h>
+    </coordinates>
+    <panel_attributes>Procedura di cucina
+--
+fg=magenta
+stato: bozza/pubblicato
+
+titolo: testo
+autore: testo
+descrizione: testo
+note: testo
+tag: testo
+
+
+tempo concreto: numero
+tempo totale: numero
+tempo ultimazione: numero
+
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>712</x>
+      <y>536</y>
+      <w>488</w>
+      <h>96</h>
+    </coordinates>
+    <panel_attributes>m1=0..n
+m2=1
+si trova in &gt;
+fg=magenta</panel_attributes>
+    <additional_attributes>10.0;20.0;510.0;20.0;510.0;90.0;590.0;90.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>1184</x>
+      <y>576</y>
+      <w>128</w>
+      <h>56</h>
+    </coordinates>
+    <panel_attributes>Ricettario
+--
+fg=magenta</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>296</x>
+      <y>616</y>
+      <w>80</w>
+      <h>184</h>
+    </coordinates>
+    <panel_attributes>lt=-
+m1=0..1
+m2=1
+riferito a v
+
+fg=red</panel_attributes>
+    <additional_attributes>10.0;210.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>248</x>
+      <y>784</y>
+      <w>120</w>
+      <h>56</h>
+    </coordinates>
+    <panel_attributes>Foglio Riepilogativo
+--
+fg=red
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>360</x>
+      <y>800</y>
+      <w>168</w>
+      <h>40</h>
+    </coordinates>
+    <panel_attributes>lt=-
+m1=1
+m2=0..n
+contiene &gt;
+fg=red</panel_attributes>
+    <additional_attributes>10.0;20.0;190.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>512</x>
+      <y>784</y>
+      <w>216</w>
+      <h>72</h>
+    </coordinates>
+    <panel_attributes>Compito
+--
+porzioni/quantità: numero
+tempo stimato: numero
+completato: si/no
+fg=red</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>552</x>
+      <y>944</y>
+      <w>160</w>
+      <h>56</h>
+    </coordinates>
+    <panel_attributes>Turno
+--
+fg=red
+
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>624</x>
+      <y>848</y>
+      <w>80</w>
+      <h>112</h>
+    </coordinates>
+    <panel_attributes>lt=-
+m1=0..n
+m2=0..1
+svolto in v
+fg=red</panel_attributes>
+    <additional_attributes>10.0;10.0;10.0;120.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>704</x>
+      <y>888</y>
+      <w>184</w>
+      <h>104</h>
+    </coordinates>
+    <panel_attributes>lt=-
+m1=0..n
+m2=0..n
+&lt; lavora in
+fg=red</panel_attributes>
+    <additional_attributes>10.0;100.0;140.0;100.0;140.0;10.0;200.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>624</x>
+      <y>664</y>
+      <w>80</w>
+      <h>136</h>
+    </coordinates>
+    <panel_attributes>lt=-
+m1=0..n
+m2=1
+contiene ^
+fg=red</panel_attributes>
+    <additional_attributes>10.0;150.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>552</x>
+      <y>1096</y>
+      <w>160</w>
+      <h>56</h>
+    </coordinates>
+    <panel_attributes>Tabellone dei Turni
+--
+
+
+fg=red
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>624</x>
+      <y>992</y>
+      <w>80</w>
+      <h>120</h>
+    </coordinates>
+    <panel_attributes>lt=-
+m1=0..n
+m2=1
+contiene ^
+
+fg=red</panel_attributes>
+    <additional_attributes>10.0;10.0;10.0;130.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>864</x>
+      <y>864</y>
+      <w>160</w>
+      <h>56</h>
+    </coordinates>
+    <panel_attributes>Cuoco
+--
+
+fg=red</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>720</x>
+      <y>800</y>
+      <w>256</w>
+      <h>80</h>
+    </coordinates>
+    <panel_attributes>lt=-
+m1=0..n
+m2=0..1
+eseguito da &gt;
+fg=red</panel_attributes>
+    <additional_attributes>10.0;20.0;280.0;20.0;280.0;80.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>1008</x>
+      <y>728</y>
+      <w>176</w>
+      <h>72</h>
+    </coordinates>
+    <panel_attributes>Istruzione
+--
+fg=magenta
+nome: testo
+anticpo: si/no
+sul luogo dell'evento: si/no</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>912</x>
+      <y>384</y>
+      <w>160</w>
+      <h>48</h>
+    </coordinates>
+    <panel_attributes>Ingrediente in Procedura
+--
+dose: numero
+fg=magenta</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>392</x>
+      <y>264</y>
+      <w>96</w>
+      <h>136</h>
+    </coordinates>
+    <panel_attributes>lt=-
+m1=0..n
+m2=1..n
+&lt; usata per
+fg=magenta</panel_attributes>
+    <additional_attributes>10.0;10.0;10.0;140.0;100.0;140.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLNote</id>
+    <coordinates>
+      <x>448</x>
+      <y>704</y>
+      <w>160</w>
+      <h>64</h>
+    </coordinates>
+    <panel_attributes>Se un compito ha attributo
+completato = si, allora deve
+per forza essere associato a
+Cuoco e a un Turno
+bg=yellow</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Text</id>
+    <coordinates>
+      <x>368</x>
+      <y>728</y>
+      <w>144</w>
+      <h>24</h>
+    </coordinates>
+    <panel_attributes>{ordered}
+style=wordwrap
+layer=-2
+fg=black</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLNote</id>
+    <coordinates>
+      <x>64</x>
+      <y>288</y>
+      <w>192</w>
+      <h>64</h>
+    </coordinates>
+    <panel_attributes>Un menu é in uso in un evento se e 
+solo se é in uso in uno dei servizi 
+previstidall'evento stesso
+bg=yellow</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>360</x>
+      <y>264</y>
+      <w>176</w>
+      <h>312</h>
+    </coordinates>
+    <panel_attributes>lt=-
+serve per ^
+m2=1
+m1=0..n
+fg=blue</panel_attributes>
+    <additional_attributes>10.0;10.0;10.0;360.0;200.0;360.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>712</x>
+      <y>568</y>
+      <w>368</w>
+      <h>176</h>
+    </coordinates>
+    <panel_attributes>m1=1
+m2=0..n
+&lt; fa parte di
+fg=magenta</panel_attributes>
+    <additional_attributes>10.0;20.0;420.0;20.0;420.0;200.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>712</x>
+      <y>600</y>
+      <w>320</w>
+      <h>280</h>
+    </coordinates>
+    <panel_attributes>m1=0..n
+m2=0..1
+&lt; proprietario di
+fg=magenta</panel_attributes>
+    <additional_attributes>10.0;20.0;340.0;20.0;340.0;330.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>64</x>
+      <y>424</y>
+      <w>472</w>
+      <h>256</h>
+    </coordinates>
+    <panel_attributes>m1=0..n
+m2=0..1
+proprietario di &gt;
+fg=magenta</panel_attributes>
+    <additional_attributes>570.0;290.0;10.0;290.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>1144</x>
+      <y>464</y>
+      <w>160</w>
+      <h>64</h>
+    </coordinates>
+    <panel_attributes>Ingrediente Base
+--
+nome: testo
+fg=magenta
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLNote</id>
+    <coordinates>
+      <x>728</x>
+      <y>0</y>
+      <w>160</w>
+      <h>88</h>
+    </coordinates>
+    <panel_attributes>Una voce puó comparire in un 
+solo menu all'interno di una 
+sezione libera quindi verrá
+valorizzata una e una sola
+delle due relazioni appartiene
+bg=yellow</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLNote</id>
+    <coordinates>
+      <x>784</x>
+      <y>104</y>
+      <w>280</w>
+      <h>144</h>
+    </coordinates>
+    <panel_attributes>Una Procedura proc è usata per un Menù m 
+se e solo se vale una delle seguenti condizioni:
+--
+-   Esiste una Voce v appartenente a m tale che
+v fa riferimento a proc
+
+-   Esistono una Sezione s e una Voce v tali che
+m contiene s, v appartiene a s e v fa riferimento a proc
+
+-   Esiste una preprazioni prep corrispondente a un 
+ingrediente ing contenuto in proc
+bg=yellow</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLNote</id>
+    <coordinates>
+      <x>800</x>
+      <y>280</y>
+      <w>240</w>
+      <h>56</h>
+    </coordinates>
+    <panel_attributes>Se una Procedura è in stato di bozza, allora 
+la procedura rimane visibile nel ricettario
+solo al suo attore.
+
+bg=yellow</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLNote</id>
+    <coordinates>
+      <x>776</x>
+      <y>656</y>
+      <w>160</w>
+      <h>56</h>
+    </coordinates>
+    <panel_attributes>Solo uno tra Chef e cuoco 
+possono essere i proprietari 
+di procedura
+bg=yellow</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>712</x>
+      <y>384</y>
+      <w>216</w>
+      <h>120</h>
+    </coordinates>
+    <panel_attributes>m1=0..n
+m2=0..n
+è usata come ingrediente in &gt;
+fg=magenta</panel_attributes>
+    <additional_attributes>60.0;10.0;60.0;120.0;10.0;120.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>712</x>
+      <y>488</y>
+      <w>448</w>
+      <h>32</h>
+    </coordinates>
+    <panel_attributes>m1=0..n
+m2=0..n
+fg=magenta</panel_attributes>
+    <additional_attributes>10.0;10.0;540.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>984</x>
+      <y>424</y>
+      <w>24</w>
+      <h>88</h>
+    </coordinates>
+    <panel_attributes>lt=.
+fg=magenta</panel_attributes>
+    <additional_attributes>10.0;10.0;10.0;90.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>0</x>
+      <y>8</y>
+      <w>360</w>
+      <h>40</h>
+    </coordinates>
+    <panel_attributes>halign=center
+*Domain Model*
+lw=0
+fontsize=35
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+</diagram>
